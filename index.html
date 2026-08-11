@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mohammed Alameer — Mechanical Engineering PhD candidate, lecturer, and researcher in robotics, reinforcement learning, adaptive control, and intelligent robotic systems." />
+  <meta name="keywords" content="Mohammed Alameer, Mechanical Engineering, Robotics, Reinforcement Learning, Adaptive Control, Mobile Robotics, Simscape Multibody, MATLAB Simulink" />
+  <meta name="author" content="Mohammed Alameer" />
+  <meta property="og:title" content="Mohammed Alameer | Academic Portfolio" />
+  <meta property="og:description" content="Academic profile, research projects, publications, teaching, and engineering experience." />
+  <meta property="og:type" content="website" />
+  <title>Mohammed Alameer | Academic Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Mohammed Alameer home">
+        <span class="brand-mark">MA</span>
+        <span>Mohammed Alameer</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav id="navMenu" class="nav-menu" aria-label="Main navigation">
+        <a href="#home" data-t="navHome">Home</a>
+        <a href="#about" data-t="navAbout">About</a>
+        <a href="#research" data-t="navResearch">Research</a>
+        <a href="#publications" data-t="navPublications">Publications</a>
+        <a href="#experience" data-t="navExperience">Experience</a>
+        <a href="#contact" data-t="navContact">Contact</a>
+      </nav>
+      <div class="lang-switch" aria-label="Language selector">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="zh">中文</button>
+        <button data-lang="ar">العربية</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow" data-t="heroEyebrow">Mechanical Engineering · Robotics · Intelligent Control</div>
+          <h1>Mohammed Alameer</h1>
+          <h2 data-t="heroTitle">PhD Candidate · Lecturer · Robotics & Intelligent Control Researcher</h2>
+          <p class="lead" data-t="heroText">My work combines mechanical design, mobile robotics, reinforcement-learning-based control, high-fidelity simulation, and experimental validation.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#research" data-t="exploreResearch">Explore Research</a>
+            <a class="btn secondary" href="#publications" data-t="viewPublications">View Publications</a>
+            <a class="btn ghost" href="assets/Mohammed_Alameer_CV_EN.docx" download data-t="downloadCV">Download CV</a>
+          </div>
+          <div class="social-row">
+            <a href="https://scholar.google.com/citations?user=BELhEgQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar ↗</a>
+            <a href="https://www.researchgate.net/profile/Mohammed-Alameer-10" target="_blank" rel="noopener">ResearchGate ↗</a>
+            <a href="https://www.linkedin.com/in/mohammed-alameer/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="portrait-shell">
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <img src="assets/profile.png" alt="Portrait of Mohammed Alameer" />
+            <div class="badge badge-one" data-t="badgeRL">Reinforcement Learning</div>
+            <div class="badge badge-two" data-t="badgeRobotics">Mobile Robotics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-strip">
+      <div class="container stats-grid">
+        <div class="stat-card"><span data-t="statRoleLabel">Current Role</span><strong data-t="statRole">PhD Candidate</strong></div>
+        <div class="stat-card"><span data-t="statFieldLabel">Field</span><strong data-t="statField">Mechanical Engineering</strong></div>
+        <div class="stat-card"><span data-t="statFocusLabel">Research Focus</span><strong data-t="statFocus">Robotics & Intelligent Control</strong></div>
+        <div class="stat-card"><span data-t="statInstitutionLabel">Institution</span><strong>GUET, China</strong></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container section-grid">
+        <div>
+          <div class="section-label" data-t="aboutLabel">Academic Profile</div>
+          <h2 data-t="aboutTitle">Engineering research grounded in design, control, simulation, and validation.</h2>
+        </div>
+        <div>
+          <p class="body-copy" data-t="aboutText">Mechanical Engineering PhD candidate and university lecturer with more than seven years of teaching experience and an industrial background in large-scale mechanical systems. Research interests include rough-terrain and planetary mobile robotics, rocker-bogie architectures, reinforcement-learning-based adaptive control, MATLAB/Simulink and Simscape Multibody modeling, prototyping, testing, and validation.</p>
+          <div class="chips" id="interestChips"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section soft-bg">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label" data-t="researchLabel">Research</div>
+            <h2 data-t="researchTitle">Selected research themes and projects</h2>
+          </div>
+          <p data-t="researchIntro">Research spanning mobile robot design, rough-terrain mobility, reinforcement learning, adaptive control, and multibody simulation.</p>
+        </div>
+        <div class="research-grid" id="researchGrid"></div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label" data-t="pubLabel">Publications</div>
+            <h2 data-t="pubTitle">Selected scholarly work</h2>
+          </div>
+          <a class="text-link" href="https://scholar.google.com/citations?user=BELhEgQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener" data-t="scholarProfile">View Google Scholar profile ↗</a>
+        </div>
+        <div class="publication-list" id="publicationList"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section soft-bg">
+      <div class="container split-layout">
+        <div>
+          <div class="section-label" data-t="educationLabel">Education</div>
+          <h2 data-t="educationTitle">Academic training</h2>
+        </div>
+        <div class="timeline" id="educationTimeline"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="section-label" data-t="experienceLabel">Experience</div>
+            <h2 data-t="experienceTitle">Teaching and engineering experience</h2>
+          </div>
+        </div>
+        <div class="experience-grid" id="experienceGrid"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+      <div class="container">
+        <div class="section-head light-head">
+          <div>
+            <div class="section-label" data-t="skillsLabel">Technical Skills</div>
+            <h2 data-t="skillsTitle">Tools and engineering domains</h2>
+          </div>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <div class="section-label" data-t="contactLabel">Contact</div>
+          <h2 data-t="contactTitle">Research, teaching, and collaboration</h2>
+          <p data-t="contactText">For academic, research, and professional inquiries, please contact me by email or through my academic profiles.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:alameermohammed@mails.guet.edu.cn">alameermohammed@mails.guet.edu.cn</a>
+          <span data-t="location">Guilin, Guangxi, China</span>
+          <a href="https://scholar.google.com/citations?user=BELhEgQAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar ↗</a>
+          <a href="https://www.linkedin.com/in/mohammed-alameer/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Mohammed Alameer</span>
+      <span data-t="footerText">Mechanical Engineering · Robotics · Intelligent Control</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
